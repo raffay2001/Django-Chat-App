@@ -14,6 +14,13 @@
     <!-- Tailwind CSS CDN  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <style>
+        .chat-messages{
+            height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+
 </head>
 
 <body class="bg-teal-600">
@@ -48,6 +55,10 @@
     <!-- block for the main page content  -->
     {% block content %}
     {% endblock content %}
+
+    <!-- block for the adding javascript  -->
+    {% block scripts %}
+    {% endblock scripts %}
 
 </body>
 
